@@ -3,42 +3,30 @@ BrightTV ‘s CEO has an objective to grow the company’s subscription base for
 year. He has approached you to provide insights that would assist CVM (Customer Value
 Management) team in meeting this year’s objective.
 
-Business Objective
+#How the Case Study Was Done
+Data Collection & Exploration
 
-Support BrightTV’s CEO goal of increasing subscriptions by:
+Raw CSV data uploaded into Databricks.
+SQL queries used to clean, transform, and enrich the dataset (unit price fixes, time buckets, weekday/weekend classification, cumulative trends).
+Exploratory checks performed for date ranges, store locations, product categories, and price ranges.
+Data Processing
 
-Understanding user and viewing trends
-Identifying key drivers of content consumption
-Recommending content strategies for low-engagement periods
-Proposing initiatives to grow the user base
+#Calculated key metrics: 
 
-#Methodology
-#Data Collection & Exploration
-Imported user profile and session-level viewing data into Databricks
-Converted all timestamps from UTC to South African Standard Time (SAST)
-Explored dataset for:
-User demographics
-Session frequency and duration
-Content categories
-Viewing timestamps
+#Exported processed dataset into Excel for pivot tables and graphs.
+Built Power BI dashboards to visualize trends, product performance, and customer behavior.
+Created planning artifacts (Miro flowchart, Gantt chart) to document methodology.
+Presentation
 
-#Data Processing
-Aggregated session-level data to compute:
-Total watch time
-Sessions per user
-Average session duration
-Created derived fields:
-Time of day (Morning, Afternoon, Evening, Night)
-Day of week (Weekday vs. Weekend)
-Segmented users based on:
-Engagement levels (Low, Medium, High)
-Viewing frequency
+#Final insights summarized in a PowerPoint/Canva presentation for the CEO.
 
-#Analysis & Visualization
-Built dashboards using Power BI to visualize:
-Daily and weekly consumption trends
-Peak viewing hours
-Content category performance
-User segmentation insights
-Used Excel for pivot tables and exploratory summaries
+#Recommendations 
 
+Insights Found
+
+#Tools Used
+Data Processing: Databricks.
+Analysis: Microsoft Excel (pivot tables, graphs).
+Visualization: Power BI
+Planning: Miro (flowchart), Gantt chart.
+Presentation:Microsoft PowerPoint.
