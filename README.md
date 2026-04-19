@@ -1,1 +1,3 @@
 # BrightTVCaseStudy
+
+Sample Text
